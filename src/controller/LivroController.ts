@@ -8,6 +8,7 @@ export class LivroController implements LivroRepository {
     }
     listarPorId(id: number): Livro | undefined {
         throw new Error("Method not implemented.");
+        
     }
     cadastrar(livro: Livro): void {
         throw new Error("Method not implemented.");
